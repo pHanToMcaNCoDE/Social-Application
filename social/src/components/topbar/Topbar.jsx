@@ -4,7 +4,7 @@ const Topbar = () => {
     return ( 
         <div className='topbarContainer'>
         <div className='topbarLeft'>
-            <span className='logo'><a href='/'><i class="fa-solid fa-ghost"></i></a></span>
+            <span className='logo'><a href='/'><i class="fa-solid fa-ghost"></i>phatomCanChat</a></span>
         </div>
         <div className='topbarCenter'>
             <div className='searchbar'>
@@ -22,7 +22,16 @@ const Topbar = () => {
                     <i class="fa-solid fa-user"></i>
                     <span className='topbarIconBadge'>1</span>
                 </div> 
+               <div className='topbarIconItem'>
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <span className='topbarIconBadge'>14</span>
+                </div> 
+               <div className='topbarIconItem'>
+                    <i class="fa-solid fa-bell"></i>
+                    <span className='topbarIconBadge'>2</span>
+                </div> 
             </div>
+            <img src='assets/person/1.jpg' alt='Profile' className='topbarImg'/>
         </div>
         </div>
      );
