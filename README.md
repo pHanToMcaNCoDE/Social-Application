@@ -1,6 +1,7 @@
 # Social-Application
-This is a follow up project. It involves the basics of React js.
+
+Reference: https://www.youtube.com/watch?v=zM93yZ_8SvE&t=1567s
 
 # Tools
 
-React Js
+HTML, CSS, React Js
